@@ -9,8 +9,8 @@ class SubjectMarks{
 		int subject2 = marks.nextInt();
 		System.out.print("subject 3 marks: ");
 		int subject3 = marks.nextInt();
-		if(subject1 >= 60 && subject2 >= 60 && subject3 >= 60){
-			System.out.println("Passed");
+		if(subject1 >= 60 && subject2 >= 60 && subject3 >= 60){			
+			System.out.println("Passed");				
 		}
 		else if((subject1 >= 60 && subject2 >= 60) || (subject1 >= 60 && subject3 >= 60) || (subject3 >= 60 && subject2 >= 60)){
 			System.out.println("Promoted");
