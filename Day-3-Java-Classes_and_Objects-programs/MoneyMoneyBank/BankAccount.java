@@ -2,7 +2,7 @@ package com.MoneyMoneyBank;
 
 public abstract class BankAccount {
 	
-	 static int accountNumber;
+	static int accountNumber;
 	private String name;
 	protected double accountBalance;
 	
